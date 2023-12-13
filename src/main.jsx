@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     {
         path: '/',
         element: <App />,
-        // errorElement: <NoFound/> will add in as a later page.
+        // errorElement: <NoFound/> will add on a later date.
         children: [
             {
                 index: true,
