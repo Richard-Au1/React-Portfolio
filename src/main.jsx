@@ -16,7 +16,19 @@ const router = createBrowserRouter([
         element: <App/>,
         // errorElement: <NoFound/> will add in as a later page.
         children: [
-
-        ],
-    },
+            {
+                index: true,
+                element: <aboutMe/>,
+            },{
+                path: 'resume',
+                element: <Resume/>,
+            },{
+                path: 'portfolio',
+                element: <Portfolio/>,
+            },{
+                path: 'contact',
+                element: <Contact/>,
+            },
+        ]
+    }
 ]);
