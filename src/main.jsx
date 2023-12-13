@@ -2,7 +2,7 @@
 import App from './app';
 import { ReactDOM } from 'react-dom/client';
 
-import {createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import AboutMe from './pages/aboutMe';
 import Resume from './pages/resume';
@@ -13,22 +13,26 @@ import Contact from './pages/contact';
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <App/>,
+        element: <App />,
         // errorElement: <NoFound/> will add in as a later page.
         children: [
             {
                 index: true,
-                element: <AboutMe/>,
-            },{
+                element: <AboutMe />,
+            }, {
                 path: 'resume',
-                element: <Resume/>,
-            },{
+                element: <Resume />,
+            }, {
                 path: 'portfolio',
-                element: <Portfolio/>,
-            },{
+                element: <Portfolio />,
+            }, {
                 path: 'contact',
-                element: <Contact/>,
+                element: <Contact />,
             },
         ]
     }
 ]);
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+    <RouterProvider router={router} />
+);
