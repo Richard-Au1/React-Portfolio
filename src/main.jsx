@@ -4,10 +4,10 @@ import { ReactDOM } from 'react-dom/client';
 
 import {createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import aboutMe from './pages/aboutMe';
-import resume from './pages/resume';
-import portfolio from './pages/portfolio';
-import contact from './pages/contact';
+import AboutMe from './pages/aboutMe';
+import Resume from './pages/resume';
+import Portfolio from './pages/portfolio';
+import Contact from './pages/contact';
 
 // creating a webrowser
 const router = createBrowserRouter([
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                element: <aboutMe/>,
+                element: <AboutMe/>,
             },{
                 path: 'resume',
                 element: <Resume/>,
