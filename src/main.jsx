@@ -1,8 +1,7 @@
 // importing all the imports
+import ReactDOM  from 'react-dom/client';
 import App from './App';
-import { ReactDOM } from 'react-dom/client';
 import './index.css';
-
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AboutMe from './pages/aboutMe';

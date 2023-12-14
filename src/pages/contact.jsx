@@ -11,23 +11,15 @@ export default function MyForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className='container border w-25 p-3 mt-5'>
+    <form onSubmit={handleSubmit} style={{}}>
         <div>
       <label>Enter your name:
-        <input
-          type="text" 
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
+        <input type="text"  value={name}  onChange={(e) => setName(e.target.value)} />
       </label>
       </div>
       <div>
       <label>Enter your email:
-        <input
-          type="text" 
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
+        <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} />
       </label>
       </div>
       <div>
