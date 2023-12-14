@@ -7,7 +7,7 @@
   scroll-behavior: smooth;
 }
 
-.container-fluid {
+.box-contain {
   background-color: turquoise;
   text-align: center;
   border-radius: 10px;
@@ -37,7 +37,7 @@ nav {
   background-color: turquoise;
 }
 
-.top-2 {
+.bottom {
   display: flex;
   flex-wrap: wrap;
   margin: 5px;
@@ -58,7 +58,7 @@ h1 {
   background-color: turquoise;
 }
 
-.card-1 {
+.card {
   padding: 3rem 3rem;
   width: 200px;
 }
@@ -74,12 +74,12 @@ footer {
   height: 2.5rem;
 }
 
-#page-container {
+#container-page {
   position: relative;
   min-height: 100vh;
 }
 
-.card-container {
+.box-card {
   display: flex;
   flex-wrap: wrap;
   margin: 5px;
