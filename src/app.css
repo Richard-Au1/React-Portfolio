@@ -10,9 +10,7 @@
 
 nav {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row-reverse;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
   background-color: turquoise;
 }
@@ -44,7 +42,6 @@ h1 {
 }
 
 footer {
-  background-image: url("../assets/Purple-in-Design-1.jpeg");
   background-position: center;
   margin-top: auto;
   padding: 20px;
@@ -74,9 +71,6 @@ footer {
   height: auto;
 }
 
-nav {
-  background-color: turquoise;
-}
 
 .active {
   color: #fff !important;
@@ -85,9 +79,10 @@ nav {
 
 
 .img {
-  background-image: url("../assets/Purple-in-Design-1.jpeg");
   padding: 0px 100px 0px 100px;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 ul .list {
@@ -100,12 +95,12 @@ ul .list {
 }
 
 #me-image {
-  width: 140px;
-  height: auto;
-  margin: 30px;
-  background-image: url("assets/IMG_1364.JPEG");
-  display: flex;
+  text-align: center;
+  display: block;
   justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 300px;
 }
 
 main {
@@ -120,11 +115,12 @@ main {
 
 .headers {
   font-size: 40px;
-  background-color: turquoise;
-  width: 300px;
   padding: 30px;
   text-align: center;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
 }
 
 #contact {
@@ -165,4 +161,3 @@ p {
   background-position: center;
   background-size: 200px;
 }
-

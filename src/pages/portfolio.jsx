@@ -15,14 +15,6 @@ export default function Portfolio() {
                                         <a href="https://github.com/Richard-Au1/Employee-tracker" alt="employee tracker">Employee Tracker</a>
                                 </div>
                         </div>
-                        <div className="bottom-2">
-                                <div className="card-2" id="svg">
-                                        <a href="https://github.com/Richard-Au1/SVG-Creator" alt="svg creator">Svg Creator</a>
-                                </div>
-                                <div className="card-2" id="parking-app">
-                                        <a href="../assets/parking app.jpg" alt="image-of-parking-app">Parking App</a>
-                                </div>
-                        </div>
                 </div>
         )
 };
