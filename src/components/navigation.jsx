@@ -1,7 +1,7 @@
 export default function Nav({ links }) {
     return (
-      <nav style={{display: 'flex', justifyContent: "right", background: 'turquoise'}} >
-        <div >
+      <nav className='navbar navbar-expand-lg'>
+        <div className="container-fluid">
             <ul style={{margin: '20px' }} >
               {links.map((link) => link)}
             </ul>

@@ -8,7 +8,6 @@ import AboutMe from './pages/aboutMe';
 import Resume from './pages/resume';
 import Portfolio from './pages/portfolio';
 import Contact from './pages/contact';
-
 // creating a webrowser
 const router = createBrowserRouter([
     {
@@ -32,7 +31,6 @@ const router = createBrowserRouter([
         ]
     }
 ]);
-
 ReactDOM.createRoot(document.getElementById('root')).render(
     <RouterProvider router={router} />
 );

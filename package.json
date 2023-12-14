@@ -1,32 +1,27 @@
 {
-  "name": "portfolio",
-  "private": true,
-  "version": "0.0.0",
-  "description": "The website display details about who I am, what I have worked on, and how to get in contact with me.",
+  "name": "challenge-2",
+  "version": "1.0.0",
+  "description": "The attached website is my personal portfolio. I have created it to include one project that I have completed as well as four future projects that I plan to work on and create. I have designed the layout to include my work, how to contact me, and a picture of myself! This is all wrapped in a color scheme and box layout that I felt best represented myself.",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "@react-pdf-viewer/core": "^3.12.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "react-bootstrap": "^2.9.1",
+    "react-dom": "^18.2.0",
+    "react-image": "^4.1.0",
+    "react-router-dom": "^6.19.0",
+    "@vitejs/plugin-react": "^4.0.0",
     "bootstrap": "^5.3.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-pdf": "^7.6.0",
-    "react-pdf-viewer": "^0.1.0",
-    "react-router-dom": "^6.20.1"
-  },
-  "devDependencies": {
-    "@types/react": "^18.2.43",
-    "@types/react-dom": "^18.2.17",
-    "@vitejs/plugin-react": "^4.2.1",
-    "eslint": "^8.55.0",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.5",
-    "vite": "^5.0.8"
+    "vite": "^5.0.0"
   }
 }

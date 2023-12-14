@@ -3,11 +3,10 @@ import React from 'react';
 
 export default function Footer() {
     return (
-        <footer style={{backgroundColor: 'gray', fontSize: '15px',}} >
-            <div>
-                <a style={{fontSize: '15px'}} href="https://github.com/Richard-Au1">Github</a>
+        <footer className="d-flex justify-content-center ">
+            <div className='pe-3'>
+                <a href="https://github.com/Richard-Au1/React-Portfolio">Github</a>
             </div>
         </footer>
-
     )
 }

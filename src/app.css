@@ -1,46 +1,210 @@
-#root {
+* {
+  background-color: lightblue;
+  color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Created heading with my name and my nav links as well. Increased the margin at the bottom of the nav links so as to line up with the header itself. */
+header {
+  padding: 40px;
+  background-color: turquoise;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 100px;
+}
+
+h1 {
+  background-color: turquoise;
+}
+
+/* Added flex box. */
+
+nav {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: right;
+  align-items: center;
+  background-color: turquoise;
+}
+
+/* Added background image to the image of myself. */
+
+.img {
+  background-image: url("../assets/Purple-in-Design-1.jpeg");
+  padding: 0px 100px 0px 100px;
+  margin-bottom: 10px;
+}
+
+ul .list {
+  list-style-type: none;
+  background-color: turquoise;
+  width: fit-content;
+  padding: 10px;
   text-align: center;
+  float: right;
 }
 
-#imageStyle  {
+/* Added multiple anchor elements and changed their background color as well as border. */
+
+a {
+  background-color: turquoise;
+}
+
+#me-image {
+  width: 140px;
   height: auto;
-  width: 200px; 
-  margin: 75px; 
+  margin: 30px;
+  background-image: url("assets/IMG_1364.JPEG");
+  display: flex;
+  justify-content: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+main {
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* Centered text for all three headers. Rounded corners of boxes  */
+.headers {
+  font-size: 40px;
+  background-color: turquoise;
+  width: 300px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+#contact {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p {
+  text-align: center;
+  justify-content: center;
+  padding: 10%;
+}
+
+/* Added the below background images and links to boxes. */
+
+#refactored {
+  width: 400px;
+  text-align: center;
+  border: solid 6px;
+  padding: 100px;
+  background-image: url("../assets/digital-marketing-meeting.jpg");
+  background-size: 600px;
+  background-position: center;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+#tutor-ratings {
+  background-image: url("../assets/Screenshot 2023-10-17 202043.png");
+  background-size: 200px;
+  background-position: center;
+}
+
+#one-click-eats {
+  background-image: url("../assets/Screenshot 2023-08-17 171253.png");
+  background-position: center;
+  background-size: 200px;
+}
+
+#weather-app {
+  background-image: url("../assets/weather app.jpg");
+  background-position: center;
+  background-size: 300px;
+}
+
+#parking-app {
+  background-image: url("../assets/parking app.jpg");
+  background-position: center;
+}
+
+/* Added the below boxes.  */
+.top-2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  padding: 1rem 1rem;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.card-1 {
+  padding: 3rem 3rem;
+  width: 200px;
+}
+
+.bottom-2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  padding: 1rem 1rem;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.card-2 {
+  /* border: 3px solid black; */
+  padding: 3rem 3rem;
+  width: 200px;
+}
+
+footer {
+  background-image: url("../assets/Purple-in-Design-1.jpeg");
+  background-position: center;
+  margin-top: auto;
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+/* changed footer into class parent footer and rooted background image here */
+
+
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  padding: 1rem 1rem;
+  text-align: center;
+  justify-content: center;
 }
 
 .card {
-  padding: 2em;
+  width: 18rem;
+  height: auto;
 }
 
-.read-the-docs {
-  color: #888;
+nav {
+  background-color: turquoise;
+}
+
+.active {
+  color: #fff !important;
+  background: black !important;
 }
