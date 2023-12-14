@@ -14,6 +14,18 @@ export default function Portfolio() {
                                 <div className="card" id="tracker">
                                         <a href="https://github.com/Richard-Au1/Employee-tracker" alt="employee tracker">Employee Tracker</a>
                                 </div>
+                                <div className="card" id="SNA">
+                                        <a href="https://github.com/Richard-Au1/Social-Network-Api" alt="SNA">Social App Tracker</a>
+                                </div>
+                                <div className="card" id="svg">
+                                        <a href="https://github.com/Richard-Au1/SVG-Creator" alt="svg">SVG</a>
+                                </div>
+                                <div className="card" id="quiz">
+                                        <a href="https://github.com/Richard-Au1/CodingQuiz" alt="quiz">Coding Quiz</a>
+                                </div>
+                                <div className="card" id="passwordd">
+                                        <a href="https://github.com/Richard-Au1/Generating-a-Password" alt="password">Password Generator</a>
+                                </div>
                         </div>
                 </div>
         )

@@ -178,8 +178,26 @@ p {
   background-position: center;
 }
 
-#tracker {
-  background-image: url("./assets/employeeTracker.jpg");
+#SNA {
+  background-image: url("./assets/socialApp.png");
+  background-position: center;
+  background-size: 200px;
+}
+
+#svg {
+  background-image: url("./assets/react.svg");
+  background-position: center;
+  background-size: 200px;
+}
+
+#quiz {
+  background-image: url("./assets/quiz.jpg");
+  background-position: center;
+  background-size: 200px;
+}
+
+#passwordd {
+  background-image: url("./assets/password.jpg");
   background-position: center;
   background-size: 200px;
 }
