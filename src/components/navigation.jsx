@@ -1,8 +1,8 @@
 export default function Nav({ links }) {
     return (
-      <nav className='navbar navbar-expand-lg'>
-        <div className="container-fluid">
-            <ul style={{margin: '20px' }} >
+      <nav>
+        <div class="container-fluid">
+            <ul style={{margin: '20px', backgroundColor: 'turquoise'}} >
               {links.map((link) => link)}
             </ul>
         </div>

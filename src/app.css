@@ -7,6 +7,14 @@
   scroll-behavior: smooth;
 }
 
+.container-fluid {
+  background-color: turquoise;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
 
 nav {
   display: flex;
