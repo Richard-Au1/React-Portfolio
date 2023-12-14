@@ -3,14 +3,14 @@ const resumeeUrl = 'https://docs.google.com/document/d/1aBA3oCYzD6pOGNvlbQRw9HaL
 export default function Resume() {
     return (
         <div>
-            <h3>
+            <h3 className="container-fluid2">
                 Resume
             </h3>
-            <a href={resumeeUrl}> Resume </a>
-            <h4>
+            <a className="container-fluid2" href={resumeeUrl}> Resume </a>
+            <h4 className="container-fluid2">
                 Proficiencies:
             </h4>
-            <ul>
+            <ul style={{display: "flex", justifyContent: "center", flexWrap: "wrap", flexDirection: "column",  alignContent: "center"}}>
                 <li>HTML</li>
                 <li>Javascript</li>
                 <li>CSS</li>

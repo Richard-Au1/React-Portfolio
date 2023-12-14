@@ -16,6 +16,20 @@
   text-decoration: underline;
 }
 
+.container-fluid2{
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.container-fluid3{
+ margin: auto;
+ display: block;
+}
+
 nav {
   display: flex;
   justify-content: center;
