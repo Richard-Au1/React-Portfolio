@@ -7,7 +7,25 @@
   scroll-behavior: smooth;
 }
 
-/* Created heading with my name and my nav links as well. Increased the margin at the bottom of the nav links so as to line up with the header itself. */
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: right;
+  align-items: center;
+  background-color: turquoise;
+}
+
+.top-2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  padding: 1rem 1rem;
+  text-align: center;
+  justify-content: center;
+}
+
 header {
   padding: 40px;
   background-color: turquoise;
@@ -20,147 +38,7 @@ h1 {
   background-color: turquoise;
 }
 
-/* Added flex box. */
-
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row-reverse;
-  justify-content: right;
-  align-items: center;
-  background-color: turquoise;
-}
-
-/* Added background image to the image of myself. */
-
-.img {
-  background-image: url("../assets/Purple-in-Design-1.jpeg");
-  padding: 0px 100px 0px 100px;
-  margin-bottom: 10px;
-}
-
-ul .list {
-  list-style-type: none;
-  background-color: turquoise;
-  width: fit-content;
-  padding: 10px;
-  text-align: center;
-  float: right;
-}
-
-/* Added multiple anchor elements and changed their background color as well as border. */
-
-a {
-  background-color: turquoise;
-}
-
-#me-image {
-  width: 140px;
-  height: auto;
-  margin: 30px;
-  background-image: url("assets/IMG_1364.JPEG");
-  display: flex;
-  justify-content: center;
-}
-
-main {
-  color: black;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-
-/* Centered text for all three headers. Rounded corners of boxes  */
-.headers {
-  font-size: 40px;
-  background-color: turquoise;
-  width: 300px;
-  padding: 30px;
-  text-align: center;
-  border-radius: 10px;
-}
-
-#contact {
-  margin-top: 30px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-p {
-  text-align: center;
-  justify-content: center;
-  padding: 10%;
-}
-
-/* Added the below background images and links to boxes. */
-
-#refactored {
-  width: 400px;
-  text-align: center;
-  border: solid 6px;
-  padding: 100px;
-  background-image: url("../assets/digital-marketing-meeting.jpg");
-  background-size: 600px;
-  background-position: center;
-  margin: 5px;
-  align-items: center;
-  justify-content: center;
-}
-
-#tutor-ratings {
-  background-image: url("../assets/Screenshot 2023-10-17 202043.png");
-  background-size: 200px;
-  background-position: center;
-}
-
-#one-click-eats {
-  background-image: url("../assets/Screenshot 2023-08-17 171253.png");
-  background-position: center;
-  background-size: 200px;
-}
-
-#weather-app {
-  background-image: url("../assets/weather app.jpg");
-  background-position: center;
-  background-size: 300px;
-}
-
-#parking-app {
-  background-image: url("../assets/parking app.jpg");
-  background-position: center;
-}
-
-/* Added the below boxes.  */
-.top-2 {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 5px;
-  padding: 1rem 1rem;
-  text-align: center;
-  justify-content: center;
-
-}
-
 .card-1 {
-  padding: 3rem 3rem;
-  width: 200px;
-}
-
-.bottom-2 {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 5px;
-  padding: 1rem 1rem;
-  text-align: center;
-  justify-content: center;
-
-}
-
-.card-2 {
-  /* border: 3px solid black; */
   padding: 3rem 3rem;
   width: 200px;
 }
@@ -176,10 +54,6 @@ footer {
   width: 100%;
   height: 2.5rem;
 }
-
-/* changed footer into class parent footer and rooted background image here */
-
-
 
 #page-container {
   position: relative;
@@ -208,3 +82,87 @@ nav {
   color: #fff !important;
   background: black !important;
 }
+
+
+.img {
+  background-image: url("../assets/Purple-in-Design-1.jpeg");
+  padding: 0px 100px 0px 100px;
+  margin-bottom: 10px;
+}
+
+ul .list {
+  list-style-type: none;
+  background-color: turquoise;
+  width: fit-content;
+  padding: 10px;
+  text-align: center;
+  float: right;
+}
+
+#me-image {
+  width: 140px;
+  height: auto;
+  margin: 30px;
+  background-image: url("assets/IMG_1364.JPEG");
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.headers {
+  font-size: 40px;
+  background-color: turquoise;
+  width: 300px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#contact {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p {
+  text-align: center;
+  justify-content: center;
+  padding: 10%;
+}
+
+
+
+#lol {
+  width: 400px;
+  text-align: center;
+  border: solid 6px;
+  padding: 100px;
+  background-image: url("./assets/lolPic.jpg");
+  background-size: 600px;
+  background-position: center;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+#tutor-ratings {
+  background-image: url("./assets/tutor-rating.png");
+  background-size: 200px;
+  background-position: center;
+}
+
+#tracker {
+  background-image: url("./assets/employeeTracker.jpg");
+  background-position: center;
+  background-size: 200px;
+}
+
